@@ -1,0 +1,23 @@
+doctype html
+html
+	include includes/head.pug
+body
+	include includes/navbar.pug
+	section(id="main-section")
+		h1 Welcome to Brocode
+		form(action="/contact_me" method="post")
+			fieldset
+				legend Contact Me
+				p Name:
+				input(type="text" name="name")/
+				br
+				p email:
+				input(type="text" name="email")/
+				br
+				p Message:
+				input(type="textarea" name="message")/
+				br
+				input(type="submit")/
+	include includes/footer.pug
+			
+	

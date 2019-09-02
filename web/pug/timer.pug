@@ -1,0 +1,19 @@
+doctype html
+html
+    include includes/head.pug
+body
+    include includes/navbar.pug
+    section(id="main-section")
+        div(id="timer-bar")
+            div(id="minutes-div") 00
+            div :
+            div(id="seconds-div") 00
+            form
+                - Minutes
+                br
+                input(id="minutes-input")
+                br
+                button(onClick="countDown()") Count Down
+    include includes/footer.pug
+                    
+    

@@ -1,0 +1,14 @@
+section{
+	color: black;
+}
+
+#timer-bar{
+	width: 90%;
+	text-align: center;
+	background-color: lightorange;
+}
+
+#timer-bar > div{
+	display: inline-block;
+	font-size: 3em;
+}
