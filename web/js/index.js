@@ -24,4 +24,15 @@ function countDown(){
 
 }
 
+function logContactForm(){
+    var contactForm = {
+        name: document.querySelector("input[name='name']").value,
+        email: document.querySelector("input[name='email']").value,
+        message: document.querySelector("input[name='message']").value
+    }
+
+    alert("your information is: " + contactForm.name + " \n email: " + contactForm.email + " \n message: " + contactForm.message)
+    console.log("your information is: " + contactForm.name + " \n email: " + contactForm.email + " \n message: " + contactForm.message)
+}
+
 

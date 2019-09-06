@@ -11,6 +11,7 @@ import (
 func main() {
 	router := gin.Default()
 	router.GET("/getBlogPosts", routes.GetAllBlogPosts)
+	router.StaticFile("/", "./web/html/index.html")
 	router.StaticFS("/html", http.Dir("./web/html"))
 	router.StaticFS("/css", http.Dir("./web/css"))
 	router.StaticFS("/js", http.Dir("./web/js"))

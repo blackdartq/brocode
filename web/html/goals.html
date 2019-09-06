@@ -2,18 +2,27 @@
 <html>
   <head>
     <title>Welcome to Brocode!</title>
-    <link rel="stylesheet" type="text/css" href="../css/main.css">
-    <link rel="stylesheet" type="text/css" href="../css/index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="../js/database.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   </head>
 </html>
 <body>
-  <nav><a href="index.html"><span id="welcome-text">Brocode</span></a><a href="timer.html">
-      <button>Timer</button></a><a href="goals.html">
-      <button>Goals</button></a><a href="blog.html">
-      <button>Blog</button></a><a href="wiki.html">
-      <button>Wiki</button></a></nav>
+  <nav class="navbar navbar-expand-sm bg-dark col-12">
+    <ul class="navbar-nav col-12">
+      <li class="nav-item col-8"><a class="nav-link" href="./"> Brocode</a></li>
+      <li class="nav-item"><a class="nav-link" href="./html/goals.html">Goals</a></li>
+      <li class="nav-item"><a class="nav-link" href="./html/goals.html">Projects</a></li>
+      <li class="nav-item"><a class="nav-link" href="./html/blog.html">Blog</a></li>
+      <li class="nav-item"><a class="nav-link" href="./html/wiki.html">Wiki</a></li>
+    </ul>
+  </nav>
   <section id="main-section">
     <h1>Welcome to Brocode</h1>
     <form action="/contact_me" method="post">
