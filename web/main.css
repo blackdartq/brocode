@@ -1,0 +1,57 @@
+html {
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+  background-color: #cee5f2;
+  text-align: center;
+  height: 1000px;
+}
+
+@font-face {
+  font-family: Chronicle;
+  src: url("../img/Chronicle.ttf");
+}
+nav a {
+  background-color: transparent;
+  color: white;
+  font-size: 2vw;
+  font-family: Chronicle;
+  display: inline-block;
+  border-style: none;
+}
+nav button:hover {
+  color: #536b78;
+}
+
+#welcome-text {
+  font-family: Chronicle;
+  margin-right: 25%;
+  text-align: center;
+  color: #404853;
+}
+
+section {
+  margin-top: 1%;
+  display: inline-block;
+  position: relative;
+  background-color: #fbfbff;
+  width: 90%;
+  height: 80%;
+}
+
+footer {
+  width: 100%;
+  height: 6%;
+  background-color: #footer-background-color;
+  font-size: 1vw;
+  float: center;
+  margin-bottom: 1px;
+}
+footer img {
+  margin-bottom: -1%;
+  item-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */
